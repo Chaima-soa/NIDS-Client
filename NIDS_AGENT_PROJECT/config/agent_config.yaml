@@ -1,0 +1,14 @@
+server:
+  host: 192.168.203.138        # IP du serveur NIDS (à changer selon ton réseau)
+  port: 5000
+
+agent:
+  name: "client-chaima"
+  secret_key: "SuperSecretNIDS2025"
+  interval_seconds: 5
+
+monitoring:
+  cpu: true
+  memory: true
+  processes: true
+  open_ports: true
